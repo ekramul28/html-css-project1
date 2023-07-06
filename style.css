@@ -46,6 +46,10 @@
     height: 100vh;
     background-image: url(./images/background.png),
         linear-gradient(45deg, rgb(12, 11, 11), rgb(60, 55, 55));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
     color: white;
 }
 
@@ -76,3 +80,39 @@
 .banner-img:hover {}
 
 /* banner section end hear*/
+/*About  start hear*/
+.about-banner-img {
+    height: 300px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-image: url(./images/background.png),
+        linear-gradient(45deg, white, white));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: black;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 15px;
+    margin: 15px 0px;
+}
+
+.h1 {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+/*About  end hear*/
