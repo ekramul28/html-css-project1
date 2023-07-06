@@ -8,6 +8,10 @@
     width: 200px;
 }
 
+.logo-img:hover {
+    box-shadow: 0px 0px 50px 20px rgb(165, 145, 145);
+}
+
 .menu-container {
     background-color: black;
     padding: 10px;
@@ -77,7 +81,6 @@
     border-radius: 17px 0px;
 }
 
-.banner-img:hover {}
 
 /* banner section end hear*/
 /*About  start hear*/
@@ -91,7 +94,7 @@
     justify-content: space-around;
 
     background-image: url(./images/background.png),
-        linear-gradient(45deg, white, white));
+        linear-gradient(45deg, white, white);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -102,6 +105,7 @@
 .title {
     font-size: 40px;
     font-weight: bold;
+    text-align: center;
 }
 
 .description {
@@ -116,3 +120,125 @@
 }
 
 /*About  end hear*/
+/*card section start here*/
+.card {
+    width: 260px;
+    height: 340px;
+    box-shadow: 0px 0px 50px 20px gray;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.box-btn {
+    font-weight: bolder;
+    color: black;
+    margin: 10px;
+    padding: 10px 15px;
+
+}
+
+.box-btn:hover {
+    background-color: gray;
+}
+
+.title1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+
+.icon {
+    width: 100px;
+}
+
+.card-text {
+    margin: 10px;
+}
+
+.card-container {
+
+    background-image: url(./images/background.png),
+        linear-gradient(45deg, rgb(63, 58, 58), rgb(30, 29, 29));
+    height: 500px;
+
+}
+
+.card-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 0px 25px black;
+}
+
+/*card section end here*/
+/*Footer section start hear*/
+.footer-logo {
+    width: 100px;
+    margin: 10px;
+
+}
+
+.footer-main-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    height: 400px;
+    background-image: url(./images/background.png),
+        linear-gradient(35deg, rgb(29, 28, 28), rgb(17, 13, 13));
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+    padding: 20px;
+    margin: 40px;
+    color: white;
+}
+
+.footer-text {
+
+    margin: 10px;
+
+}
+
+.footer-para {
+    margin: 10px;
+}
+
+.hr {
+
+
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 500px;
+
+
+}
+
+.copy {
+    color: white;
+    text-align: center;
+
+}
+
+.man {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+
+/*Footer section end hear*/
